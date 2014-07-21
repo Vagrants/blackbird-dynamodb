@@ -66,7 +66,7 @@ Configurations
 ### Notes
 
 #### ignore\_metrics
-If you don't want to get any metrics, you should use `ignore\_metrics` parameter. So, you can throttle request to AWS CloudWatch by using ignore\_metrics parameter.
+If you don't want to get any metrics, you should use `ignore_metrics` parameter. So, you can throttle request to AWS CloudWatch by using ignore\_metrics parameter.
 
 e.g:
 
