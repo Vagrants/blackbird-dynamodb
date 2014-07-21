@@ -223,7 +223,7 @@ class ConcreteJob(base.JobBase):
                     value = 0
                 else:
                     value = raw_value
-             
+
                 item = DynamoDBItem(
                     key=key,
                     value=value,
@@ -233,7 +233,7 @@ class ConcreteJob(base.JobBase):
 
 
 class DynamoDBItem(base.ItemBase):
-    
+
     def __init__(self, key, value, host):
         super(DynamoDBItem, self).__init__(key, value, host)
 
