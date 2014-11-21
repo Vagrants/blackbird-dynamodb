@@ -86,3 +86,9 @@ ignore_operations = PutItem, DeleteItem, UpdateItem, GetItem, BatchGetItem
 ```
 
 Above configurations shows that `blackbird` does not get `PutItem, DeleteItem, UpdateItem, GetItem, BatchGetItem` metrics.
+
+
+Notes
+-----
+
+I'll create RPM package soon.
